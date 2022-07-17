@@ -1,12 +1,12 @@
 package com.company;
 
-public class Student extends Person {
+public class Book_Student extends Book_Person {
     private String major;
     /**
     * @param name Имя студента
     * @param major Специализация студента
     */
-    public Student(String name, String major) {
+    public Book_Student(String name, String major) {
     // передать строку name конструктору суперкласса
     // в качестве его параметра
         super(name);

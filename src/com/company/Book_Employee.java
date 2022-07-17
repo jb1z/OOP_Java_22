@@ -1,10 +1,10 @@
 package com.company;
 import java.time.LocalDate;
 
-public class Employee extends Person {
+public class Book_Employee extends Book_Person {
     private double salary;
     private LocalDate hireDay;
-    public Employee(String name, double salary, int year, int month, int day) {
+    public Book_Employee(String name, double salary, int year, int month, int day) {
         super(name);
         this.salary = salary;
         hireDay = LocalDate.of(year, month, day);

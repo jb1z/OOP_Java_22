@@ -1,10 +1,10 @@
 package com.company;
 
 
-public abstract class Person {
+public abstract class Book_Person {
     public abstract String getDescription();
     private String name;
-    public Person(String name)
+    public Book_Person(String name)
     {
         this.name = name;
     }
