@@ -16,5 +16,7 @@ public class Book_Main {
         }
         EnumTest enum1 = EnumTest.DOWN;
         System.out.println(enum1);
+        Book_SumImp si = new Book_SumImp();
+        System.out.println(si.getSumm());
     }
 }
