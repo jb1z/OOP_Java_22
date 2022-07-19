@@ -1,6 +1,6 @@
 package com.company;
 
-public class Book_SumImp implements Book_I_Sums {
+public class Book_SumImp implements Book_Interface_Sums {
     public int y = 0;
     @Override
     public int sum(int a, int b) {

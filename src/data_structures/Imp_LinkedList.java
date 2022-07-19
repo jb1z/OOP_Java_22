@@ -1,7 +1,7 @@
 package data_structures;
 import java.util.LinkedList;
 
-public class Imp_Linked_List {
+public class Imp_LinkedList {
     public static void main(String[] args){
         LinkedList<String> list = new LinkedList<>();
         // we treat it like a stack

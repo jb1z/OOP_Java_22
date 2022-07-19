@@ -2,7 +2,7 @@ package data_structures;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Imp_Priority_Queue {
+public class Imp_PriorityQueue {
     public static void main(String[] args){
         Queue<Double> priorityQueue = new PriorityQueue<>();
         priorityQueue.offer(4d);

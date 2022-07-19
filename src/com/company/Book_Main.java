@@ -18,7 +18,7 @@ public class Book_Main {
         System.out.println(enum1);
         Book_SumImp si = new Book_SumImp();
         System.out.println(si.getSumm());
-        Book_I_Sums a = new Book_SumImp();
+        Book_Interface_Sums a = new Book_SumImp();
         // we can create an object of Book_SumImp() but with a reference type of interface
         // so the *a* object is now limited by the Book_I_Sums interface methods !!!
         Book_SumImp b = new Book_SumImp();
