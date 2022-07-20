@@ -2,6 +2,7 @@ package video;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class LambdaAnsStream_Main {
 
@@ -35,6 +36,11 @@ public class LambdaAnsStream_Main {
         System.out.println(summer.sum(x, y));
 
         List<Integer> list = List.of(1, 2, 3);
-        list.stream();
+        System.out.println(list.stream()
+                .map(i -> i * i)
+                .filter(el -> el > 3)
+                .flatMap(el -> Stream.iterate(1, i -> i <= el, i -> i + 1))
+                .mapToInt(i -> i)
+                .summaryStatistics());
     }
 }
