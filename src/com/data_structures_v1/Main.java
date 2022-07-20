@@ -1,4 +1,4 @@
-package data_structures;
+package com.data_structures_v1;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package video;
+package com.video;
 
 public class InnerClasses {
     private static int aMain = 5;

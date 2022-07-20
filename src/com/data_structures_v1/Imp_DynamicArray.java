@@ -1,4 +1,4 @@
-package data_structures;
+package com.data_structures_v1;
 
 public class Imp_DynamicArray {
     private int size;

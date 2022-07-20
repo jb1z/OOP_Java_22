@@ -1,4 +1,4 @@
-package video;
+package com.video;
 
 public class Student {
     private Specialization specialization;
